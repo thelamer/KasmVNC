@@ -1636,7 +1636,7 @@ vfbScreenInit(ScreenPtr pScreen, int argc, char **argv)
 #endif
 
     /* 96 is the default used by most other systems */
-    dpi = 96;
+    dpi = 192;
     if (monitorResolution)
         dpi = monitorResolution;
 
